@@ -1,0 +1,1464 @@
+/* Style for evry elements */
+* {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dedac5;
+    ;
+    color: #6b6d6e;
+    line-height: 1.8;
+    font-family: trebuchet ms, helvetica, sans-serif;
+
+}
+
+/* NavBar css start */
+
+/* hamburger icon css */
+.hamburger-icon {
+    display: none;
+}
+
+#icon {
+    color: #fff;
+}
+
+#bar-button {
+    background-color: #ff6026;
+    border: 1px solid #e74710;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+.nvabar-box {
+    padding: 20px 162px;
+}
+
+.navbar {
+    background-color: #ff6026;
+    border: 1px solid #e74710;
+    display: flex;
+    height: 45px;
+    list-style-type: none;
+    justify-content: end;
+    align-items: center;
+}
+
+#nav-list:hover {
+    background-color: #de4517;
+}
+
+a {
+    font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 3px 30px 4px;
+}
+
+.main-container {
+    padding: 10px 175px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box1 {
+    padding-top: 19px;
+    text-align: center;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+    width: 99%;
+}
+
+#heading {
+    font-size: 96px;
+    font-family: trebuchet ms, helvetica, sans-serif;
+    color: #6b6d6e;
+    line-height: 1;
+    text-shadow: 0 1px 1px #f2f0e9;
+}
+
+#heading2 {
+    font-family: trebuchet ms, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #6b6d6e;
+    line-height: 1.8;
+}
+
+.logo-img {
+    margin-top: -15px;
+    width: 270px;
+    height: 156px;
+}
+
+#cross-icon {
+    display: none;
+}
+
+.dropdown {
+    background-color: #c86544;
+    color: #6b6d6e;
+}
+
+.nav {
+    padding: 22px;
+    list-style: none;
+}
+
+.container-2 {
+    font-family: "over the rainbow";
+    width: 99%;
+}
+
+#img2 {
+    padding-bottom: 24px;
+}
+
+.editor_excerpt {
+    font-family: "over the rainbow";
+    font-size: 28px;
+    font-weight: 400;
+    color: #6b6d6e;
+    line-height: 1.8;
+    word-wrap: break-word;
+    padding: 0 37px;
+}
+
+#img2 {
+    width: 98%;
+}
+
+.container-3 {
+    /* background-color: #f1e7e7; */
+    background-color: #eae8e3;
+
+    width: 98%;
+    height: 50%;
+    padding: 25px 25px;
+    margin-left: 34px;
+}
+
+#pTag {
+    color: #A52A2A;
+    font-size: 22px;
+    font-family: trebuchet ms, helvetica, sans-serif;
+}
+
+#li-ptag {
+    list-style: none;
+    font-family: over the rainbow;
+    font-size: 22px;
+}
+
+#strong-ptag {
+    color: #A52A2A;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+#pTag2 {
+    color: #A52A2A;
+    font-size: 22px;
+    font-family: trebuchet ms, helvetica, sans-serif;
+    padding-top: 35px;
+}
+
+#craft {
+    font-size: 24px;
+}
+
+#strong-craft {
+    font-weight: bold;
+    font-family: "over the rainbow";
+    padding-left: 15px;
+}
+
+h5 {
+    color: #A52A2A;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.container-4 {
+    font-family: over the rainbow;
+    font-weight: bold;
+    font-size: 24px;
+    width: 94%;
+    padding: 1px 0px 1px 56px;
+}
+
+#list {
+    font-size: 26px;
+    font-family: trebuchet ms, helvetica, sans-serif;
+}
+
+.container-5 {
+    width: 103%;
+    padding: 20px;
+}
+
+hr {
+
+    border: 1px solid #6b6d6e;
+    ;
+}
+
+#box5 {
+    display: flex;
+    gap: 58px;
+    font-size: 22px;
+    font-family: over the rainbow;
+    font-weight: bold;
+    padding: 18px;
+    color: #A52A2A;
+}
+
+.container-box {
+    font-family: trebuchet ms, helvetica, sans-serif;
+    display: flex;
+    gap: 37px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 36px;
+    width: 100%;
+}
+
+.container6 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.Main-box-ptag {
+    font-family: trebuchet ms, helvetica, sans-serif;
+    display: flex;
+    gap: 86px;
+    font-size: 18px;
+    width: 100%;
+    padding-left: -25px;
+    margin-left: 30px;
+}
+
+h4 {
+    font-size: 26px;
+    font-family: over the rainbow;
+}
+
+#level-strong {
+    color: #A52A2A;
+}
+
+.container7 {
+    width: 102%;
+    padding-top: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h3 {
+    font-size: 33px;
+    font-family: trebuchet ms, helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#box7 {
+    font-family: over the rainbow;
+    font-size: 28px;
+}
+
+#strong7 {
+    color: #A52A2A;
+    font-weight: bold;
+}
+
+
+footer {
+    padding: 20px 80px 0;
+}
+
+.food {
+    display: flex;
+    margin-top: 70px;
+    gap: 7px;
+}
+
+#foot-link {
+    color: #A52A2A;
+    font-size: 16px;
+    padding: 0;
+}
+
+#foot-link:hover {
+    color: #e22e2e;
+}
+
+.container8 {
+    background: #f1e7e7;
+    width: 100%;
+    height: 150px;
+    padding: 8px 27px;
+    opacity: .7;
+}
+
+.container9 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* dropdown css ****************************/
+#drop-program {
+    width: 19%;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    padding: 12px 16px;
+    z-index: 1;
+    list-style: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.drop-p:hover #drop-program {
+    display: block;
+    background-color: rgb(249, 243, 236);
+}
+
+#pro {
+    color: #6b6d6e;
+}
+
+/* about page css start              ***************************************************************** */
+
+.about-box1 {
+    background-color: #eae8e3;
+    display: flex;
+    gap: 17px;
+    padding: 20px;
+    width: 100%;
+}
+
+#h2-tag {
+    font-size: 54px;
+    font-family: "over the rainbow";
+}
+
+#about-p-tag {
+    padding: 23px;
+    font-size: 20px;
+    font-family: trebuchet ms, helvetica, sans-serif;
+}
+
+.about-box2 {
+    font-size: 23px;
+    font-weight: 400;
+    padding: 10px;
+    width: 100%;
+}
+
+#about-ul-tag {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-strong-tag {
+    font-size: 25px;
+    font-style: italic;
+}
+
+/* Programms page css   ****************************************************************************** */
+
+.program1-Good {
+    width: 100%;
+    padding: 15px;
+    font-size: 21px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#program-stron-head {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    color: #A52A2A;
+}
+
+
+
+#program-stron-head2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #B22222;
+}
+
+.program2-Good {
+    width: 100%;
+    padding: 15px;
+    font-size: 21px;
+}
+
+#que-h1-tag {
+    font-weight: bold;
+    color: #B22222;
+    font-size: 20px;
+}
+
+#em-tag {
+    color: #B22222;
+    font-family: "over the rainbow";
+    font-size: 20px;
+}
+
+#PITCHES {
+    font-size: 22px;
+}
+
+#Category {
+    color: #B22222;
+    font-family: "over the rainbow";
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.program3-Good {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#category-box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#program3 {
+    color: #B22222;
+    font-size: 26px;
+}
+
+#program-p {
+    font-size: 24px;
+    margin-top: -33px;
+}
+
+.link-email {
+    display: flex;
+}
+
+#link-email {
+    color: #ff6026;
+}
+
+
+
+
+/* progarm page 2 css********************************************** */
+.program2-div1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-size: 28px;
+    font-family: "over the rainbow";
+    padding: 20px;
+    text-align: center;
+}
+
+#head-tag {
+    color: #A52A2A;
+    font-family: trebuchet ms, helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.program2-div2 {
+    width: 100%;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 28px;
+    color: #B22222;
+    font-family: trebuchet ms, helvetica, sans-serif;
+}
+
+
+.program2-div3 {
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 25px;
+    font-family: trebuchet ms, helvetica, sans-serif;
+}
+
+.program2-div4 {
+    width: 100%;
+    font-size: 28px;
+    padding: 30px;
+    font-family: "over the rainbow";
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+
+
+#div4-pro {
+    color: #B22222;
+    font-size: 23px;
+    text-align: center;
+    font-family: trebuchet ms, helvetica, sans-serif;
+
+}
+
+#insight {
+
+    font-weight: bolder;
+    text-align: center;
+    font-size: 32px;
+}
+
+#nsight-2 {
+    padding: 15px;
+}
+
+.program2-div5 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 15px;
+    padding: 32px;
+}
+
+#Category-pro {
+    color: #B22222;
+    font-size: 23px;
+    font-family: "over the rainbow";
+
+}
+
+.program2-div6 {
+    width: 100%;
+    padding: 20px 40px 100px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* Contact page css */
+
+#img3 {
+    height: 30px;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contac-div1 {
+    display: flex;
+    width: 78%;
+    background-color: antiquewhite;
+    padding: 29px;
+    gap: 65px;
+    justify-content: center;
+}
+
+.form {
+
+    width: 58%;
+
+}
+
+.container-contact {
+    display: flex;
+    flex-direction: column;
+    width: 73%;
+    justify-content: center;
+    padding: 20px;
+}
+
+#send-note {
+    color: #A52A2A;
+    font-size: 35px;
+    font-family: cursive;
+    text-align: center;
+    font-weight: bolder;
+}
+
+label {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #A52A2A;
+    line-height: 1.8;
+    padding-bottom: 4px;
+}
+
+input {
+    width: 150%;
+    height: 39px;
+    background-color: white;
+    border: 1px solid rgb(189, 189, 182);
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 20px;
+}
+
+#Message {
+    height: 160px;
+    font-size: 18px;
+    width: 150%;
+
+}
+
+#check-box {
+    display: flex;
+}
+
+#receive {
+    width: 18px;
+    margin-right: 10px;
+}
+
+
+.submit {
+    width: 27%;
+    height: 40px;
+    font-size: 19px;
+    margin-top: 21px;
+    background-color: #d3623d;
+    color: #eae8e3;
+    border: none;
+    border-radius: 8px;
+}
+
+#contact {
+    color: #A52A2A;
+    text-align: center;
+    font-size: 30px;
+}
+
+#contact-info {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 30px;
+}
+
+
+/* ************************************************************************************************************* */
+/* Responsiv css */
+@media screen and (max-width: 1408px) {
+    .container-3 {
+        width: 99%;
+        height: 477px;
+    }
+
+    #pTag {
+        font-size: 21px;
+    }
+
+    #pTag2 {
+        padding-top: 30px;
+    }
+
+    .container-4 {
+        font-size: 24px;
+        width: 94%;
+        padding: 1px 0px 1px 56px;
+    }
+
+}
+
+@media screen and (max-width: 1308px) {
+    #heading {
+        font-size: 68px;
+    }
+
+    #heading2 #li-ptag {
+        font-size: 22px;
+    }
+
+    #pTag2 {
+        padding-top: 28px;
+    }
+
+
+    .container-3 {
+        width: 101%;
+        height: 500px;
+        margin-left: 10px;
+    }
+
+    #craft {
+        font-size: 21px;
+    }
+
+    .container-4 {
+        font-size: 24px;
+        width: 100%;
+        padding: 1px 0px 1px 56px;
+    }
+
+    .container-box {
+        gap: 37px;
+        padding: 0 36px;
+    }
+
+    .box1 {
+        padding-top: 19px;
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container-1 {
+        padding-left: 14px;
+        width: 111%;
+    }
+
+    .main-container {
+        padding: 10px 185px;
+    }
+
+    #heading {
+        font-size: 67px;
+    }
+
+    #heading2 {
+        font-size: 18px;
+    }
+
+    #img2 {
+        width: 100%;
+    }
+
+    #pTag2 {
+        padding-top: 28px;
+    }
+
+    #li-ptag {
+        font-size: 22px;
+    }
+
+    .container-3 {
+        width: 101%;
+        height: 50%;
+    }
+
+    #craft {
+        font-size: 20px;
+    }
+
+    .container-box {
+        gap: 74px;
+        padding: 0px 25px;
+
+    }
+
+    /* about page csss************************************** */
+    .about-box1 {
+        flex-wrap: wrap;
+    }
+
+
+    .founder-img {
+        height: 519px;
+        width: 102%;
+        padding: 15px 40px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .main-container {
+        padding: 10px 177px;
+    }
+
+    #heading2 {
+        font-size: 21px;
+    }
+
+    #heading {
+        font-size: 62px;
+    }
+
+    .main-container {
+        padding: 10px 160px;
+    }
+
+    .logo-img {
+        width: 190px;
+        height: 90px;
+    }
+
+    .container-4 {
+        font-size: 22px;
+    }
+
+    .contac-div1 {
+        display: flex;
+        flex-direction: column;
+        width: 78%;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .form {
+        width: 68%;
+    }
+}
+
+@media screen and (max-width: 986px) {
+    .nvabar-box {
+        padding: 20px 100px;
+    }
+
+    a {
+        font-size: 18px;
+        padding: 0px 10px 2px;
+    }
+
+    .navbar {
+        height: 42px;
+    }
+
+    .main-container {
+        padding: 10px 101px;
+    }
+
+    #heading {
+        font-size: 55px;
+    }
+
+    #heading2 {
+        font-size: 18px;
+    }
+
+    .container-box {
+        gap: 65px;
+        padding: 0px 25px;
+        flex-wrap: wrap;
+
+    }
+
+    #drop-program {
+        width: 165px;
+        font-size: 17px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    input,
+    #Message {
+        width: 142%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container-box {
+        gap: 25px;
+        padding: 0px 21px;
+        flex-wrap: wrap;
+    }
+
+    .Main-box-ptag {
+        gap: 33px;
+        font-size: 18px;
+        width: 100%;
+        padding-left: -20px;
+        margin-left: 25px;
+    }
+
+    #drop-program {
+        width: 160px;
+        font-size: 14px;
+
+    }
+
+    .form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .nvabar-box {
+        padding: 20px 80px;
+    }
+
+    a {
+        font-weight: 400;
+        font-size: 15px;
+        padding: 0px 8px 2px;
+    }
+
+    .navbar {
+        height: 40px;
+    }
+
+    .main-container {
+        padding: 10px 99px;
+    }
+
+    #heading {
+        font-size: 38px;
+    }
+
+    #heading2 {
+        font-size: 12px;
+    }
+
+    #drop {
+        display: none;
+    }
+
+    .editor_excerpt {
+        padding: 0px 18px;
+        font-size: 21px;
+    }
+
+    .container-4 h5 #list {
+        font-size: 22px;
+    }
+
+    .container-box {
+        gap: 25px;
+        padding: 0px 0px;
+        flex-wrap: wrap;
+    }
+
+    #box7 h3 {
+        font-size: 24px;
+    }
+
+    #drop-program {
+        width: 160px;
+        font-size: 14px;
+    }
+
+    #h2-tag {
+        font-size: 34px;
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .contac-div1 {
+        width: 96%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nvabar-box {
+        display: none;
+    }
+
+    .hamburger-icon {
+        position: absolute;
+        right: 7%;
+        top: 2%;
+        display: block;
+    }
+
+    .container-1 {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 22px;
+        row-gap: 18px;
+        padding-left: 41px;
+    }
+
+
+    .main-container {
+        padding: 10px 55px;
+        display: flex;
+        flex-direction: column;
+        gap: 33px;
+    }
+
+    .box1 {
+        padding-top: 19px;
+        margin-left: -10px;
+    }
+
+    #heading {
+        font-size: 55px;
+    }
+
+    #heading2,
+    .program1-Good,
+    .program2-Good,
+    .program3-Good {
+        font-size: 18px;
+    }
+
+    .editor_excerpt {
+        padding: 0px 18px;
+        font-size: 22px;
+    }
+
+    #program-p,
+    #PITCHES {
+        font-size: 14px;
+
+    }
+
+    .container-3 {
+        margin-left: 3px;
+    }
+
+    #program-stron-head2,
+    #Category,
+    #program3 {
+        font-size: 22px;
+
+    }
+
+    #program-p,
+    #PITCHES {
+        flex-wrap: wrap;
+    }
+
+    #list {
+        font-size: 16px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .contact-container {
+        padding: 20px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .hamburger-icon {
+        position: absolute;
+        right: 7%;
+        top: 2%;
+        display: block;
+    }
+
+    #heading {
+        font-size: 45px;
+    }
+
+    #box5 {
+
+        gap: 40px;
+        font-size: 14px;
+        padding: 9px;
+
+    }
+
+    h5 h3 {
+        font-size: 20px;
+    }
+
+    .container-box {
+        flex-wrap: wrap;
+        padding-left: 26px;
+    }
+
+    .container-box {
+        gap: 55px;
+        padding: 0px 5px;
+    }
+
+    .Main-box-ptag {
+        flex-wrap: wrap;
+        margin-left: 9px;
+    }
+
+    #list #box7 {
+        font-size: 24px;
+
+    }
+
+    #h2-tag {
+        font-size: 28px;
+    }
+
+    .container-4 {
+        padding: 1px 0px 1px 27px;
+    }
+
+    .container-1 {
+        padding-left: -20px;
+        padding-left: 9px;
+    }
+
+    .submit {
+        width: 32%;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    footer {
+        padding: 3%;
+    }
+
+    .contact-container {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .food {
+        display: flex;
+        margin-top: 47px;
+        gap: 7px;
+    }
+
+}
+
+@media screen and (max-width: 412px) {
+    .hamburger-icon {
+        position: absolute;
+        right: 3%;
+        top: 2%;
+        display: block;
+    }
+
+    .Main-box-ptag {
+        flex-wrap: wrap;
+    }
+
+    .container-3 {
+        margin-left: 2px;
+    }
+
+    .box1 {
+        padding-top: 19px;
+        margin-left: -14px;
+    }
+
+    .container-1 {
+        row-gap: 18px;
+        padding-left: 0px;
+    }
+
+    .container6 {
+        gap: 20px;
+        font-size: 16px;
+        margin-left: -17px;
+        padding-left: -11px;
+    }
+
+    .container-4,
+    #about-p-tag {
+        font-size: 17px;
+    }
+
+    .founder-img {
+        height: 443px;
+        width: 102%;
+        padding: 2px 11px;
+    }
+
+    .about-box2 {
+        font-size: 20px;
+        padding: 10px;
+
+    }
+
+    footer {
+        padding: 9px 42px;
+    }
+
+    .container-1 {
+        padding-left: -20px;
+    }
+
+    input,
+    #Message {
+        width: 152%;
+    }
+
+    .contac-div1 {
+        width: 99%;
+    }
+
+    .submit {
+        width: 42%;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    footer {
+        padding: 10px 0px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .logo-img {
+        width: 263px;
+        height: 133px;
+    }
+
+    .container-1 {
+        width: 109%;
+        padding-left: 0;
+    }
+
+    .box1 {
+        padding-top: 19px;
+        margin-left: 11px;
+    }
+
+    #list #box7 {
+        font-size: 21px;
+
+    }
+
+    .main-container {
+
+        padding: 0px 28px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    #heading {
+        font-size: 34px;
+    }
+
+    #heading2 {
+        font-size: 12px;
+    }
+
+    .hamburger-icon {
+        position: absolute;
+        right: 3%;
+        top: 2%;
+        display: block;
+    }
+
+    .editor_excerpt {
+        padding: 0px 16px;
+        font-size: 20px;
+    }
+
+    .container-4 h5 #list {
+        font-size: 18px;
+    }
+
+    .Main-box-ptag {
+        flex-wrap: wrap;
+        font-size: 16px;
+
+    }
+
+    #list {
+        font-size: 22px;
+    }
+
+    #box5 {
+        gap: 17px;
+        font-size: 14px;
+        padding: 1px;
+    }
+
+    .container6 {
+        margin-left: 2px;
+    }
+
+    .container-4 {
+        padding: 1px 0px 1px 35px;
+        font-size: 18px;
+    }
+
+    #box7,
+    h3,
+    h5 {
+        font-size: 22px;
+    }
+
+    #h2-tag {
+        font-size: 33px;
+    }
+
+    .about-box2,
+    #box7 {
+        font-size: 18px;
+        padding: 10px;
+
+    }
+
+    input,
+    #Message {
+        /* font-size: 16px;w */
+        width: 169%;
+
+    }
+
+    #contact-info {
+        font-size: 16px;
+    }
+
+
+    .contac-div1 {
+        width: 99%;
+        padding: 4px 45px 0px 3px;
+    }
+    .food {
+       
+        margin-top: 37px;
+   
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .submit {
+        width: 84%;
+        height: 40px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .logo-img {
+        width: 200px;
+        height: 100px;
+    }
+
+    .main-container {
+        padding: 10px 55px;
+    }
+
+    #heading {
+        font-size: 27px;
+    }
+
+    #heading2 {
+        font-size: 12px;
+    }
+
+    .container-3 {
+        margin-left: 1px;
+    }
+
+    .container-box {
+        flex-wrap: wrap;
+        padding-left: 48px;
+    }
+
+    .container6 {
+        margin-left: 2px;
+    }
+
+    #box5 {
+        flex-wrap: wrap;
+    }
+
+    .container-4 #latest-venturs-list {
+        font-size: 18px;
+    }
+
+    #box5 {
+        gap: 17px;
+        font-size: 14px;
+        padding: 1px;
+    }
+
+    .submit {
+        width: 69%;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .container-contact {
+        padding: 14px;
+    }
+    .food {
+        margin-top: 30px;
+   
+    }
+}
+
+
+@media screen and (max-width: 280px) {
+
+    .editor_excerpt {
+        font-size: 12px;
+    }
+
+    .main-container {
+        padding: 10px 45px;
+        gap: 33px;
+    }
+
+
+    #pTag2 {
+        padding-top: 25px;
+        font-size: 19px;
+    }
+
+    #pTag #li-ptag #craft {
+        font-size: 19px;
+    }
+
+    .container-3 {
+        margin-left: -9px;
+        width: 113%;
+    }
+
+    #h2-tag {
+        font-size: 28px;
+    }
+
+    .container-4 {
+        font-size: 8px;
+        padding: 1px 0px 1px 19px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    .container-box {
+        flex-wrap: wrap;
+        padding-left: 6px;
+    }
+
+    #box7 {
+        font-size: 25px;
+    }
+    .food {
+      
+        margin-top: 25px;
+      
+    }
+}
